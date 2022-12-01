@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md">
+<!-- <nav class="navbar navbar-expand-md">
     <div class="container">
       <a class="navbar-brand"><img src="../../assets/logo.png" width="50px" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,10 +14,42 @@
               <img src="../../assets/logo.png" width="25px" alt="">
             </a>
             <ul class="dropdown-menu">
+              <li>hi</li>
             </ul>
           </li>
           
         </ul>
       </div>
     </div>
-  </nav>
+  </nav> -->
+
+  <nav>
+    <div class="logo"> <img src="../../assets/logo.png" width="50px" alt=""> POWER BANK ON CLOUD</div>
+    <div class="icon" id="bell"> 
+      <img src="../../assets/arrow1.png"  alt=""> 
+      <!-- <i class="fa fa-arrow-down" aria-hidden="true" style="color: white;"></i> -->
+    </div>
+    <div class="notifications" id="box">
+        <!-- <h2>Notifications - <span>2</span></h2> -->
+        <div class="notifications-item" (click)="onClick('utility-dashboard')"> 
+            <div class="text">
+                <h4>Utility view</h4>
+            </div>
+        </div>
+        <div class="notifications-item" (click)="onClick('generator')"> 
+            <div class="text">
+                <h4>Generator View</h4>
+            </div>
+        </div>
+        <div class="notifications-item" (click)="onClick('trading')"> 
+          <div class="text">
+              <h4>Trading view</h4>
+          </div>
+      </div>
+      <div class="notifications-item"> 
+        <div class="text">
+            <h4>Landing page</h4>
+        </div>
+    </div>
+    </div>
+</nav>
