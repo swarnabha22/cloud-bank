@@ -1,0 +1,69 @@
+.third{
+    padding: 25px;
+}
+
+td{
+    text-align: center;
+    font-size: small;
+    font-weight: 600;
+}
+
+th{
+    font-size: small;
+    font-weight: 600;
+}
+
+.td-soler-img{
+    width: 24px;
+}
+
+.third .card{
+    margin: 9px;
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+    .card-body{
+        p{
+            font-size: small;
+            font-weight: 600;
+        }
+        .ppa-icon{
+            width: 57px;
+        }
+        text-align: center;
+    }
+}
+
+.retailer{
+    margin: 9px;
+    row{
+        
+        border: none;
+    }
+    img{
+        width: 30px;
+    }
+    p{
+        font-size: small;
+        font-weight: 600;
+        margin-top: 14px;
+    }
+    .undercol{
+        text-align: center;
+    }
+}
+
+.colortext{
+    color: green;
+}
+
+.util{
+    padding-top: 81px;
+    padding-bottom: 10px;
+}
+
+.round-noti{
+    position: absolute;
+    top: 3px;
+    right: 5px;
+    font-size: 12px;
+}
