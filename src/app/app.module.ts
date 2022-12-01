@@ -18,8 +18,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LoginComponent } from './login/login.component';
 import { FooterComponent } from './footer/footer.component';
 
-// import { PaginationModule } from 'ngx-bootstrap/pagination';
-// import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { PaginationModule } from 'ngx-bootstrap/pagination';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { MyGeneratorsComponent } from './my-generators/my-generators.component';
 
 @NgModule({
   declarations: [
@@ -35,15 +36,16 @@ import { FooterComponent } from './footer/footer.component';
     GeneratorsComponent,
     TradingComponent,
     LoginComponent,
-    FooterComponent
+    FooterComponent,
+    MyGeneratorsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
     FormsModule,
-    // PaginationModule.forRoot(),
-    // CarouselModule.forRoot(),
+    PaginationModule.forRoot(),
+    CarouselModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]

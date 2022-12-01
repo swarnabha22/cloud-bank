@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CreatePbComponent } from './create-pb.component';
+import { MyGeneratorsComponent } from './my-generators.component';
 
-describe('CreatePbComponent', () => {
-  let component: CreatePbComponent;
-  let fixture: ComponentFixture<CreatePbComponent>;
+describe('MyGeneratorsComponent', () => {
+  let component: MyGeneratorsComponent;
+  let fixture: ComponentFixture<MyGeneratorsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CreatePbComponent ]
+      declarations: [ MyGeneratorsComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(CreatePbComponent);
+    fixture = TestBed.createComponent(MyGeneratorsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

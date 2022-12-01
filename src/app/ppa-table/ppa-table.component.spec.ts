@@ -11,9 +11,7 @@ describe('PpaTableComponent', () => {
       declarations: [ PpaTableComponent ]
     })
     .compileComponents();
-  });
 
-  beforeEach(() => {
     fixture = TestBed.createComponent(PpaTableComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

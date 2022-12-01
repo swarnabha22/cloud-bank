@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { UtilityService } from '../utility.service';
+
 
 @Component({
   selector: 'app-utility-dashboard',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UtilityDashboardComponent implements OnInit {
 
-  constructor() { }
+  slides:any[] = [
+    {image: '../../assets/t1.png'},
+    {image: '../../assets/t2.png'},
+    {image: '../../assets/t4.png'}
+  ];
+  constructor(public util:UtilityService) { }
 
   ngOnInit(): void {
   }
+
 
 }

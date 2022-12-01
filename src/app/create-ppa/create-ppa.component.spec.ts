@@ -11,9 +11,7 @@ describe('CreatePpaComponent', () => {
       declarations: [ CreatePpaComponent ]
     })
     .compileComponents();
-  });
 
-  beforeEach(() => {
     fixture = TestBed.createComponent(CreatePpaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

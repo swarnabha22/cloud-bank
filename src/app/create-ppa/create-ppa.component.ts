@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { UtilityService } from '../utility.service';
 
 @Component({
   selector: 'app-create-ppa',
@@ -7,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CreatePpaComponent implements OnInit {
 
-  constructor() { }
+  constructor(public util: UtilityService) { }
 
-  ngOnInit(): void {
+  ngOnInit(): void {    
   }
 
 }

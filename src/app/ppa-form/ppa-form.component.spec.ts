@@ -11,9 +11,7 @@ describe('PpaFormComponent', () => {
       declarations: [ PpaFormComponent ]
     })
     .compileComponents();
-  });
 
-  beforeEach(() => {
     fixture = TestBed.createComponent(PpaFormComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

@@ -11,9 +11,7 @@ describe('UtilityDashboardComponent', () => {
       declarations: [ UtilityDashboardComponent ]
     })
     .compileComponents();
-  });
 
-  beforeEach(() => {
     fixture = TestBed.createComponent(UtilityDashboardComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

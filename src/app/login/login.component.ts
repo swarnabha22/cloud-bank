@@ -15,7 +15,7 @@ export class LoginComponent implements OnInit {
 
   onClick(event :Event){
     event.preventDefault();
-    this.router.navigateByUrl('trading');
+    this.router.navigateByUrl('utility-dashboard');
   }
 
 }

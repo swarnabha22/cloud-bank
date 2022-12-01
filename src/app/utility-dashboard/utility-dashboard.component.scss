@@ -1,0 +1,120 @@
+.pb_statistics {
+    img {
+        height: 80px;
+        width: 80px;
+        margin: 0;
+
+    }
+
+    p {
+        font-size: 0.8rem;
+        
+    }
+    .pb_box{
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.battery {
+    width: 40px;
+}
+
+.heading {
+    background-color: rgb(49, 96, 98);
+    color: white;
+    padding: 5px 0px;
+    margin-bottom: 1rem;
+}
+
+[data-bs-toggle]:hover {
+    cursor: pointer;
+    transition: 0.2s all ease;
+    transform: scale(1.05);
+}
+
+.table-bordered {
+    border: 3px solid black;
+}
+
+.pbListed {
+    position: relative;
+}
+.config_pb_text,.config_pa_text{
+    font-size: 1rem;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+}
+
+
+.bar-template {
+    height: 13rem;
+    position: relative;
+}
+
+.q1,
+.q2,
+.q3,
+.q4 {
+    width: 2rem;
+    background-color: rgb(25, 3, 120);
+}
+.bar-template{
+    p,hr{
+        padding: 0;
+        margin: 0;
+    }
+    .base{
+        font-size: 0.8rem;
+    }
+}
+.revenue-q1 {
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    // z-index: -1;
+    .q1 {
+        height: 4rem;
+    }
+
+}
+.revenue-q1:hover,.revenue-q2:hover,.revenue-q3:hover,.revenue-q4:hover{
+    transform: scale(1.1);
+    transition: 0.2s all ease-in;
+}
+
+.revenue-q2 {
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    // z-index: -1;
+
+    .q2{
+        height: 7rem;
+    }
+}
+
+.revenue-q3 {
+    position: absolute;
+    bottom: 0;
+    left: 60%;
+    .q3{
+        height: 11rem;
+    }
+}
+
+.revenue-q4 {
+    position: absolute;
+    bottom: 0;
+    left: 80%;
+    .q4{
+        height: 9rem;
+    }
+}
+slide{
+    z-index: -1;
+}
