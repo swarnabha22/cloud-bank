@@ -7,7 +7,9 @@ $background-color_1: #c6dae4;
 	}
 }
 
-
+.col:hover {
+	box-shadow: 0 0 20px rgba(33,33,33,.2); 
+  }
 .grid {
     padding-top: 10px;
 	.row {
@@ -38,6 +40,20 @@ $background-color_1: #c6dae4;
 	}
 }
 
+.one{
+	width: 69px;
+    height: 68px;
+    margin-left: 12px;
+}
+
+.two{
+	width: 69px !important;
+    height: 68px;
+}
+.six, .seven{
+	width: 67px;
+    height: 62px;
+}
 .circle-container {
 	position: relative;
 	width: 14em;
@@ -45,6 +61,7 @@ $background-color_1: #c6dae4;
 	padding: 2.8em;
 	border-radius: 50%;
 	background-color: $background-color_1;
+	margin: 5px;
 	img {
 		display: block;
 		width: 50%;
@@ -63,22 +80,27 @@ $background-color_1: #c6dae4;
 
 .block1{
 	padding-top: 27px;
+	margin-top: 14px !important;
 }
 .block2{
 	padding-top: 10px;
+	margin-top: 24px !important;
 	.img3{
 		margin-left: 38px;
 	}
 }
 .block3{
 	padding-top: 27px;
+	margin-top: 22px !important;
 	.img4{
 		margin-left: 25px;
 		margin-top: 12px;
 	}
+	
 }
 .block4{
 	padding-top: 54px;
+	margin-top: 2px !important;
 	img{
 		width: 50px;
 	}
@@ -93,8 +115,22 @@ $background-color_1: #c6dae4;
 	padding-left: 74px;
 }
 .head3{
-	padding-left: 45px;
+	padding-left: 35px;
 }
 .head4{
 	padding-left: 68px;
+}
+
+h4{
+	font-size: smaller !important;
+    color: green;
+    justify-content: center !important;
+    margin: 4px;
+}
+
+.body{
+	background-image:url('/cloud/src/assets/bg.jfif')no-repeat;
+	background-size:100%;
+	// background-color: #5e6d90;
+	// background-image:'https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fid%2F1335671721%2Fphoto%2Felectricity-from-solar-panels-dams-and-wind-turbines-environmentally-friendly-renewable.jpg%3Fb%3D1%26s%3D170667a%26w%3D0%26k%3D20%26c%3DdpK9M6W2mcVjiUD5-rjw-WNr0Cr-_zOzByNzhJZDiTU%3D&imgrefurl=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Frenewable-energy&tbnid=Opk1A37C2tuqgM&vet=12ahUKEwiDjdb6l9r7AhWPKbcAHTyCDqYQMygAegUIARDYAQ..i&docid=K64T4HElv6f3zM&w=509&h=339&q=renwable%20energy%20background%20image&ved=2ahUKEwiDjdb6l9r7AhWPKbcAHTyCDqYQMygAegUIARDYAQ';
 }

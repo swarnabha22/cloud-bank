@@ -1,5 +1,10 @@
+.container-body{
+    margin: 30px;
+}
+
 .third{
     padding: 25px;
+    padding-top: 50px;
 }
 
 td{
@@ -41,6 +46,7 @@ th{
     }
     img{
         width: 30px;
+        padding-top: 10px;
     }
     p{
         font-size: small;
@@ -52,8 +58,12 @@ th{
     }
 }
 
-.colortext{
+// .colortext{
+//     color: green;
+// }
+h4, h5{
     color: green;
+    margin: 10 px;
 }
 
 .util{
@@ -63,7 +73,25 @@ th{
 
 .round-noti{
     position: absolute;
-    top: 3px;
-    right: 5px;
+    top: -6px;
+    right: -7px;
     font-size: 12px;
+}
+
+.third thead th { background:rgb(37, 37, 243); color:white}
+// tbody th { background: lightgrey; color:red}
+
+.btn:hover {
+	box-shadow: 0 0 20px rgba(33,33,33,.2); 
+    background-color: blue;
+    color: white;
+}
+
+.third{
+    padding-top: 150px !important;
+    
+}
+
+.completed, .execution{
+    border: 10px;
 }
