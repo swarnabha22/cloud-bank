@@ -15,7 +15,8 @@ export class LoginComponent implements OnInit {
 
   onClick(event :Event){
     event.preventDefault();
-    this.router.navigateByUrl('utility-dashboard');
+    // this.router.navigateByUrl('utility-dashboard');
+    window.location.href = `http://localhost:4200/utility-dashboard`
   }
 
 }

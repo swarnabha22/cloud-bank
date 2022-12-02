@@ -1,6 +1,6 @@
 <app-navbar></app-navbar>
 <div>
-  <div class="container">
+  <div class="container-body">
     <!-- ============Buy Modal Start================= -->
     <div
       class="modal fade bd-example-modal-md"
@@ -13,7 +13,9 @@
       <div class="modal-dialog modal-md" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="buyModalLabel">Buy Solar PB × 1 Qty​</h5>
+            <h5 class="modal-title" id="buyModalLabel">
+              Buy Solar PB × 1 Qty​
+            </h5>
             <button
               type="button"
               class="close"
@@ -44,7 +46,12 @@
                   >Capacity of Power Bank​</label
                 >
                 <div class="col-sm-3">
-                  <input type="text" class="form-control" id="cpb" value="1.5" />
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="cpb"
+                    value="1.5"
+                  />
                 </div>
                 <div class="col-sm-3">
                   <input type="text" class="form-control" value="USD" />
@@ -56,7 +63,12 @@
                   >Cost of Power Bank​​</label
                 >
                 <div class="col-sm-3">
-                  <input type="text" class="form-control" id="cpb" value="37.5" />
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="cpb"
+                    value="37.5"
+                  />
                 </div>
                 <div class="col-sm-3">
                   <input type="text" class="form-control" value="KW" />
@@ -64,7 +76,9 @@
               </div>
 
               <div class="form-group row">
-                <label for="cpb" class="control-label col-sm-4">Timeline​</label>
+                <label for="cpb" class="control-label col-sm-4"
+                  >Timeline​</label
+                >
                 <div class="col-sm-6">
                   <input
                     type="text"
@@ -177,7 +191,9 @@
               </div>
 
               <div class="form-group row">
-                <label for="cpb" class="control-label col-sm-4">Timeline​</label>
+                <label for="cpb" class="control-label col-sm-4"
+                  >Timeline​</label
+                >
                 <div class="col-sm-6">
                   <input
                     type="text"
@@ -218,59 +234,24 @@
     <div class="row">
       <div class="col-8 border-right border-bottom-0">
         <!-- =============Start ============== -->
+        <h5 class="text-center colortext">CURRENT MARKET​</h5>
 
         <div class="row">
-          <h5 class="text-center colortext">CURRENT MARKET​</h5>
-
           <div class="col">
             <table class="table">
               <tbody>
                 <tr>
                   <td>
-                    <img src="assets\img\powerbank\slid-10-1.png" width="20px" />
-                  </td>
-                  <td>
-                    <a data-toggle="modal" data-target="#buyModal"> PB </a>​
-                  </td>
-                  <td>2.2%​</td>
-                  <td>
-                    <i
-                      class="fa fa-arrow-up"
-                      aria-hidden="true"
-                      style="color: green"
-                    ></i>
-                  </td>
-                  <td>1.5$​</td>
-                </tr>
-
-                <tr>
-                  <td>
-                    <img src="assets\img\powerbank\slid-10-3.png" width="20px" />
+                    <img
+                      src="assets\img\newicon\solar-panel.png"
+                      width="20px"
+                      class="current-market-img"
+                    />
                   </td>
                   <td>
                     <a data-toggle="modal" data-target="#buyModal">Solar PB</a>​
                   </td>
-                  <td>2.2%​</td>
-                  <td>
-                    <i
-                      class="fa fa-arrow-down"
-                      aria-hidden="true"
-                      style="color: rgb(226, 7, 7)"
-                    ></i>
-                  </td>
-                  <td>1.5$​</td>
-                </tr>
-
-                <tr>
-                  <td>
-                    <img src="assets\img\powerbank\slid-10-2.png" width="20px" />
-                  </td>
-                  <td>
-                    <a data-toggle="modal" data-target="#buyModal"
-                      >Solar + Wind PB​ </a
-                    >​
-                  </td>
-                  <td>2%​</td>
+                  <td>2.10%​</td>
                   <td>
                     <i
                       class="fa fa-arrow-up"
@@ -278,40 +259,19 @@
                       style="color: green"
                     ></i>
                   </td>
-                  <td>1.5$​</td>
+                  <td>1.30$​</td>
                 </tr>
 
                 <tr>
                   <td>
                     <img
-                      src="assets\img\powerbank\slid-10-3.png"
+                      src="assets\img\newicon\windmill.png"
                       width="20px"
-                    />​​
+                      class="current-market-img"
+                    />
                   </td>
-                  <td>
-                    <a data-toggle="modal" data-target="#buyModal"
-                      >Small Hydro PB</a
-                    >​​
-                  </td>
-                  <td>2.2%​</td>
-                  <td>
-                    <i
-                      class="fa fa-arrow-up"
-                      aria-hidden="true"
-                      style="color: green"
-                    ></i>
-                  </td>
-                  <td>1.5$​</td>
-                </tr>
-
-                <tr>
-                  <td>
-                    <img src="assets\img\powerbank\slid-10-3.png" width="20px" />
-                  </td>
-                  <td>
-                    <a data-toggle="modal" data-target="#buyModal">Solar PB</a>​
-                  </td>
-                  <td>2.2%​</td>
+                  <td><a data-toggle="modal" data-target="#buyModal">Wind PB</a>​</td>
+                  <td>1.20%​</td>
                   <td>
                     <i
                       class="fa fa-arrow-down"
@@ -319,17 +279,15 @@
                       style="color: rgb(226, 7, 7)"
                     ></i>
                   </td>
-                  <td>1.5$​</td>
+                  <td>1.20$​</td>
                 </tr>
 
                 <tr>
                   <td>
-                    <img src="assets\img\powerbank\slid-10-3.png" width="20px" />
+                    <img src="assets\img\newicon\renewable.png" width="20px" />
                   </td>
-                  <td>
-                    <a data-toggle="modal" data-target="#buyModal">Solar PB</a>​
-                  </td>
-                  <td>2.2%​</td>
+                  <td><a data-toggle="modal" data-target="#buyModal">Solar + Wind PB​</a> ​</td>
+                  <td>2.30%​</td>
                   <td>
                     <i
                       class="fa fa-arrow-up"
@@ -337,26 +295,79 @@
                       style="color: green"
                     ></i>
                   </td>
-                  <td>1.5$​</td>
+                  <td>2.10$​</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <img
+                      src="assets\img\newicon\biogas-plant.png"
+                      width="20px"
+                    />​​
+                  </td>
+                  <td><a data-toggle="modal" data-target="#buyModal">Solar + Wind + Bio PB​</a>​</td>
+                  <td>1.10%​</td>
+                  <td>
+                    <i
+                      class="fa fa-arrow-up"
+                      aria-hidden="true"
+                      style="color: green"
+                    ></i>
+                  </td>
+                  <td>2.00$​</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <img src="assets\img\newicon\hydro.png" width="20px" />
+                  </td>
+                  <td><a data-toggle="modal" data-target="#buyModal">Small Hydro PB</a></td>
+                  <td>2.20%​</td>
+                  <td>
+                    <i
+                      class="fa fa-arrow-up"
+                      aria-hidden="true"
+                      style="color: rgb(30, 235, 146)"
+                    ></i>
+                  </td>
+                  <td>1.80$​</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <img
+                      src="assets\img\newicon\electrician.png"
+                      width="20px"
+                    />
+                  </td>
+                  <td><a data-toggle="modal" data-target="#buyModal">Prosumers PB</a>​</td>
+                  <td>1.10%​</td>
+                  <td>
+                    <i
+                      class="fa fa-arrow-down"
+                      aria-hidden="true"
+                      style="color: red"
+                    ></i>
+                  </td>
+                  <td>1.20$​</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
           <div class="col-6">
-            <img src="assets\img\powerbank\slid-10-graph.png" width="100%" />
+            <div id="chartContainer" style="height: 370px; width: 100%"></div>
           </div>
         </div>
 
         <hr />
         <!-- =============End ============== -->
         <div class="row trading-history">
-          <div class="col-2">
+          <div class="col-6">
             <p class="trading-title">Trading History</p>
-            ​
           </div>
 
-          <div class="col-4">
+          <div class="col-6">
             <div class="row market-footer">
               <div class="col">
                 <p class="market-title">Time Range:</p>
@@ -372,8 +383,10 @@
               </div>
             </div>
           </div>
+        </div>
 
-          <div>
+        <div class="row trading-table">
+          <div class="col">
             <table class="table">
               <thead class="thead-light">
                 <tr>
@@ -413,14 +426,14 @@
       </div>
 
       <div class="col-4">
+        <span class="border border-dark pull-right"
+          >Tuesday 22nd November 15:15 EST​</span
+        >
+        <br />
+        <h5 class="text-center colortext">MY POWER BANKS​​</h5>
+
         <div class="row section1">
-          <span class="border border-dark pull-right"
-            >Tuesday 22nd November 15:15 EST​</span
-          >
-
-          <h5 class="text-center colortext">MY POWER BANKS​​</h5>
-
-          <div class="col section1-left">
+          <div class="col section1-left pull-left">
             <h5>PB 1</h5>
             <p>Unused capacity​ 5 kW​</p>
             ​<button
@@ -432,8 +445,8 @@
             </button>
           </div>
 
-          <div class="col-6 section1-right">
-            <img src="assets\img\powerbank\slid-11.png" alt="" />
+          <div class="col section1-right pull-right">
+            <img src="assets\img\newicon\renewable.png" width="50px" alt="" />
             <p>
               Solar + Wind PB​<br />
               Valid till 31st March

@@ -25,11 +25,11 @@
 
   <nav>
     <div class="logo"> <img src="../../assets/logo.png" width="50px" alt=""> POWER BANK ON CLOUD</div>
-    <div class="icon" id="bell"> 
+    <div class="icon" id="bell" > 
       <img src="../../assets/arrow1.png"  alt=""> 
       <!-- <i class="fa fa-arrow-down" aria-hidden="true" style="color: white;"></i> -->
     </div>
-    <div class="notifications" id="box">
+    <div class="notifications" id="box" [hidden]="flag" >
         <!-- <h2>Notifications - <span>2</span></h2> -->
         <div class="notifications-item" (click)="onClick('utility-dashboard')"> 
             <div class="text">
